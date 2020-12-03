@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
+
+
+
 body {
     background-color: #28272D;
-    width: 1360px;
+    height: 4000px;
     margin: auto;
     
+}
+
+.header {
+    width: 1360px;
+    margin: auto;
+}
+
+.bg-img {
+    position: absolute;
+    background: #28272D url('/content/img/hero-bg-2160p-veryhigh.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
 }
 
 h1, h2, h3, p, a {
@@ -46,6 +65,21 @@ a:hover {
     color: #E0DFE5;
 }
 
+.nav {
+    display: inline-block;
+}
+
 .skill {
     text-decoration: none;
+}
+
+.home {
+    height: 65px;
+    width: 65px;
+}
+
+.line {
+    border-bottom: 4px solid #DB2C3A;
+    display: block;
+    width: 295px;
 }
