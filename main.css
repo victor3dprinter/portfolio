@@ -13,6 +13,7 @@ body {
 .header {
     width: 1360px;
     margin: auto;
+    text-align: center;
 }
 
 .bg-img {
@@ -22,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 150%;
     z-index: -2;
 }
 
@@ -76,6 +77,11 @@ a:hover {
 .home {
     height: 65px;
     width: 65px;
+}
+
+.intro {
+    width: 1360px;
+    margin: auto;
 }
 
 .line {
