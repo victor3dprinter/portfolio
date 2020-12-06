@@ -7,9 +7,7 @@ body {
     background-color: #28272D;
     height: auto;
     margin: auto;
-    width: ;
-    
-}
+    }
 
 
 
@@ -74,7 +72,14 @@ a:hover {
 
 .nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    
+}
+
+.nav-mid a {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .headings {
