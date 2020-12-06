@@ -19,7 +19,11 @@ body {
 
 .bg-img {
     position: absolute;
+<<<<<<< HEAD
     background-image: linear-gradient(to bottom, transparent, #28272D), url('/content/img/hero-bg-1920p.jpg');
+=======
+    background-image: linear-gradient(to bottom, transparent, #28272D), url('/content/img/bg-2160p-high.jpg');
+>>>>>>> a5c31d7458aebc8409c2bc128e69045ca192c6fd
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,6 +76,7 @@ a:hover {
 
 .nav {
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     justify-content: space-between;
     
@@ -95,6 +100,9 @@ a:hover {
 
 .headings h3 {
     margin-top: 5px;
+=======
+    justify-content: center;
+>>>>>>> a5c31d7458aebc8409c2bc128e69045ca192c6fd
 }
 
 .skill {
