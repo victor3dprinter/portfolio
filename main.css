@@ -5,10 +5,13 @@
 
 body {
     background-color: #28272D;
-    height: 4000px;
+    height: auto;
     margin: auto;
+    width: ;
     
 }
+
+
 
 .header {
     width: 1360px;
@@ -18,13 +21,16 @@ body {
 
 .bg-img {
     position: absolute;
-    background: #28272D url('/content/img/hero-bg-2160p-veryhigh.jpg');
+    background-image: linear-gradient(to bottom, transparent, #28272D), url('/content/img/hero-bg-1920p.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 150%;
+    height: 110%;
     z-index: -2;
+    opacity: 0.1;
+
+    
 }
 
 h1, h2, h3, p, a {
@@ -67,7 +73,23 @@ a:hover {
 }
 
 .nav {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headings {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.headings h1 {
+    margin-bottom: 0px;
+}
+
+.headings h3 {
+    margin-top: 5px;
 }
 
 .skill {
@@ -80,8 +102,22 @@ a:hover {
 }
 
 .intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align:center;
+    text-align: center;
     width: 1360px;
-    margin: auto;
+}
+
+.intro h3 {
+    margin-top: 32.5vh;
+    margin-bottom: 20px;
+}
+
+.intro span {
+    margin:auto;
+    margin-bottom: 60px;
 }
 
 .line {
