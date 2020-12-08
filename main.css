@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@media only screen and (max-width: 1360px) {
+    .header {
+        width: 1080px;
+        margin: auto;
+
+    }
+  }
+@media only screen and (max-width: 1080px) {
+    .header {
+        width: 600px;
+        margin: auto;
+        
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .header {
+        width: 600px;
+        margin: auto;
+        
+    }
+  }
 
 
 
@@ -19,11 +40,7 @@ body {
 
 .bg-img {
     position: absolute;
-<<<<<<< HEAD
     background-image: linear-gradient(to bottom, transparent, #28272D), url('/content/img/hero-bg-1920p.jpg');
-=======
-    background-image: linear-gradient(to bottom, transparent, #28272D), url('/content/img/bg-2160p-high.jpg');
->>>>>>> a5c31d7458aebc8409c2bc128e69045ca192c6fd
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,10 +93,9 @@ a:hover {
 
 .nav {
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     justify-content: space-between;
-    
+    padding-top: 30px;
 }
 
 .nav-mid a {
@@ -100,9 +116,6 @@ a:hover {
 
 .headings h3 {
     margin-top: 5px;
-=======
-    justify-content: center;
->>>>>>> a5c31d7458aebc8409c2bc128e69045ca192c6fd
 }
 
 .skill {
@@ -124,13 +137,13 @@ a:hover {
 }
 
 .intro h3 {
-    margin-top: 32.5vh;
+    margin-top: 33vh;
     margin-bottom: 20px;
 }
 
 .intro span {
     margin:auto;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .line {
