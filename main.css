@@ -38,7 +38,7 @@ body {
 
 .bg-img {
     position: absolute;
-    background-image: linear-gradient(to bottom, transparent, #28272D), url('/content/img/hero-bg-1920p.jpg');
+    background-image: linear-gradient(to bottom, transparent, #28272D), url('content/img/hero-bg-1920p.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
