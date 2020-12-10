@@ -21,14 +21,21 @@
     }
   }
 
+/*css reset*/
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: #28272D;
-    height: auto;
     margin: auto;
-    }
+}
 
+html {
+    height: 100%;
+}
 
+/*css reset*/
 
 .header {
     width: 1360px;
@@ -50,34 +57,36 @@ body {
 
 h1, h2, h3, p, a {
     font-family: 'Open Sans', sans-serif;
-    color: #F5FAFE;
-    
+    color: #F5FAFE; 
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-inline-start: ;
+    margin-inline-end: ;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 3.75em;
     font-weight: 600;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 3.125em;
     font-weight: 400;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 400;
 }
 
 p {
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 300;
 }
 
 a {
     display: inline-block;
     padding: 15px;
-    font-size: 30px;
     font-weight: 400;
     text-align: center;
     text-decoration: none;
@@ -92,6 +101,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
+    font-size: 1.875em;
 }
 
 .nav-mid a {
@@ -148,13 +158,64 @@ a:hover {
     width: 295px;
 }
 
-.skills {
+.skills-container {
+    background-color: #37363C;
+    text-align: center;
+}
 
+.skills-container h2{
+    padding-top: 60px;
+    padding-bottom: 80px; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
 }
 
 .skill {
     height: 440px;
     width: 440px;
+    justify-content: ;
     display: inline-block;
-    background-color: #F5FAFE;
+    background-color: #28272D;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 150px;
+}
+
+.programs {
+    text-align: center;
+    height: 690px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.program {
+    display: ;
+    height: 150px;
+    width: 150px;
+    margin: 30px 160px;
+}
+
+.p-row2 {
+    margin-bottom: 120px;
+}
+
+
+.headshot {
+    height: 150px;
+    width: 150px;
+}
+
+.medias{
+    background-color: #37363C;
+    text-align: center;
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
 }
