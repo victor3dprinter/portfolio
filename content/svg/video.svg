@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440">
+  <g id="Group_18" data-name="Group 18" transform="translate(-280 -1602)">
+    <g id="Group_17" data-name="Group 17">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="440" height="440" transform="translate(280 1602)" fill="#28272d"/>
+      <g id="Icon_feather-video" data-name="Icon feather-video" transform="translate(431.75 1696.75)">
+        <path id="Path_15" data-name="Path 15" d="M143.75,43.75,100,75l43.75,31.25Z" fill="none" stroke="#db2c3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <path id="Path_16" data-name="Path 16" d="M18.75,31.25H87.5A12.5,12.5,0,0,1,100,43.75v62.5a12.5,12.5,0,0,1-12.5,12.5H18.75a12.5,12.5,0,0,1-12.5-12.5V43.75a12.5,12.5,0,0,1,12.5-12.5Z" fill="none" stroke="#db2c3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+      </g>
+      <text id="Videos" transform="translate(500 1919)" fill="#f5fafe" font-size="50" font-family="OpenSans-Regular, Open Sans"><tspan x="-77.576" y="0">Videos</tspan></text>
+    </g>
+  </g>
+</svg>

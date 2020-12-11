@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
+
+
 /*css reset*/
 
 body {
@@ -9,7 +11,7 @@ body {
 
 html {
     height: 100%;
-    
+    scroll-behavior: smooth;
 }
 /*css reset*/
 
@@ -136,7 +138,7 @@ a:hover {
     background-color: #37363C;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 60px;
+
 }
 
 .skills-container h2{
@@ -169,10 +171,10 @@ a:hover {
 
 .programs {
     text-align: center;
+    margin-top: 60px;
 }
 
 .program {
-
     height: 150px;
     width: 150px;
     margin: 30px 160px;
@@ -197,6 +199,13 @@ a:hover {
 
 .medias{
     background-color: #37363C;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.medias-page{
+    background-color:#28272D;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;

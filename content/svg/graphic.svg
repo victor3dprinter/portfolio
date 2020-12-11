@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440">
+  <g id="Group_16" data-name="Group 16" transform="translate(-740 -1602)">
+    <rect id="Rectangle_40" data-name="Rectangle 40" width="440" height="440" transform="translate(740 1602)" fill="#28272d"/>
+    <g id="Icon_feather-pen-tool" data-name="Icon feather-pen-tool" transform="translate(885.5 1696.5)">
+      <path id="Path_17" data-name="Path 17" d="M75,118.75,118.75,75,137.5,93.75,93.75,137.5Z" fill="none" stroke="#db2c3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+      <path id="Path_18" data-name="Path 18" d="M112.5,81.25l-9.375-46.875L12.5,12.5l21.875,90.625L81.25,112.5Z" fill="none" stroke="#db2c3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+      <path id="Path_19" data-name="Path 19" d="M12.5,12.5,59.912,59.912" fill="none" stroke="#db2c3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+      <path id="Path_20" data-name="Path 20" d="M81.25,68.75a12.5,12.5,0,1,1-12.5-12.5A12.5,12.5,0,0,1,81.25,68.75Z" fill="none" stroke="#db2c3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    </g>
+    <text id="Graphics" transform="translate(960 1919)" fill="#f5fafe" font-size="50" font-family="OpenSans-Regular, Open Sans"><tspan x="-103.125" y="0">Graphics</tspan></text>
+  </g>
+</svg>
