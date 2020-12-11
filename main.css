@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 /*css reset*/
-* {
-    box-sizing: border-box;
-}
 
 body {
     background-color: #28272D;
@@ -14,7 +11,6 @@ html {
     height: 100%;
     
 }
-
 /*css reset*/
 
 .header {
@@ -40,8 +36,6 @@ h1, h2, h3, p, a {
     color: #F5FAFE; 
     margin-block-start: auto;
     margin-block-end: auto;
-    margin-inline-start: ;
-    margin-inline-end: ;
 }
 
 h1 {
@@ -117,7 +111,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align:center;
+
     text-align: center;
     width: 1360px;
 }
@@ -150,6 +144,13 @@ a:hover {
     padding-bottom: 80px; 
 }
 
+.skills-container p {
+    margin: auto;
+    width: 1320px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -159,7 +160,6 @@ a:hover {
 .skill {
     height: 440px;
     width: 440px;
-    justify-content: ;
     display: inline-block;
     background-color: #28272D;
     margin-left: 10px;
@@ -169,18 +169,17 @@ a:hover {
 
 .programs {
     text-align: center;
-
 }
 
 .program {
-    display: ;
+
     height: 150px;
     width: 150px;
     margin: 30px 160px;
 }
 
 .p-row2 {
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
 
@@ -209,7 +208,4 @@ a:hover {
     margin: 40px;
 }
 
-.media-links {
-    display: flex;
-    justify-content: center;
-}
+
