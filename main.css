@@ -104,6 +104,11 @@ a:hover {
     text-decoration: none;
 }
 
+.skill img {
+    height: 440px;
+    width: 440px;
+}
+
 .home {
     height: 65px;
     width: 65px;
