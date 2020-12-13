@@ -168,7 +168,7 @@ a:hover {
     background-color: #28272D;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .programs {
@@ -220,7 +220,7 @@ a:hover {
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
     .header {
         width: 900px;
     }
@@ -231,6 +231,13 @@ a:hover {
 
     .skill {
         margin-bottom: 60px;
+        height: 280px;
+        width: 280px;
+    }
+
+    .skill img {
+        height: 280px;
+        width: 280px;
     }
 
     .skills-container p {
@@ -258,6 +265,16 @@ a:hover {
     }
 
     .skills-container p {
+        width: 450px;
+    }
+
+    .skill {
+        height: 450px;
+        width: 450px;
+    }
+
+    .skill img {
+        height: 450px;
         width: 450px;
     }
 
