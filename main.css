@@ -116,7 +116,6 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     text-align: center;
     width: 1360px;
 }
@@ -220,10 +219,53 @@ a:hover {
     margin: 40px;
 }
 
-@media (max-width: 1400px;) {
+
+@media (max-width: 1400px) {
+    .header {
+        width: 900px;
+    }
+    
+    .intro {
+        width: 900px;
+    }
+
+    .skill {
+        margin-bottom: 60px;
+    }
+
+    .skills-container p {
+        width: 900px;
+    }
+
+    .program {
+        height: 100px;
+        width: 100px;
+        margin: 30px 75px;
+    }
+}
+
+@media (max-width: 950px) {
+    .nav-mid a {
+        margin-bottom: 10px;
+    }
+
+    .header {
+        width: 450px;
+    }
+    
+    .intro {
+        width: 450px;
+    }
+
+    .skills-container p {
+        width: 450px;
+    }
+
+    .program {
+        height: 100px;
+        width: 100px;
+        margin: 30px 20px;
+    }
 
 }
 
-@media (max-width: 1400px;) {
-
-}
